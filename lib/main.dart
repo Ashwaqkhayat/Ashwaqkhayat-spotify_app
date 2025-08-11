@@ -15,7 +15,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Spotify App',
       theme: AppTheme.lightTheme,
-      debugShowCheckedModeBanner: false, // This will hide the debug banner in the mobile screen
+      debugShowCheckedModeBanner:
+          false, // This will hide the debug banner in the mobile screen
       home: const SplashPage(),
     );
   }
